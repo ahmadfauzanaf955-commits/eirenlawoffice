@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 38" fill="none">
+  <!-- Eiren Law Office Official Logo Mark -->
+  <!-- Top Vibrant Orange Bar (#FF2B00) -->
+  <rect x="2" y="3" width="28" height="5.5" rx="0.5" fill="#FF2B00" />
+  
+  <!-- Architectural Dark Gray Spine, Middle & Base Bars (#454545) -->
+  <path d="M2 3 V35 H29 V29.5 H7.5 V21 H24 V15.5 H7.5 V8.5 H2 Z" fill="#454545" />
+</svg>

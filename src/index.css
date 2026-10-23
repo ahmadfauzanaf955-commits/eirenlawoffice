@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Arimo', sans-serif;
+  --font-arimo: 'Arimo', sans-serif;
+
+  --color-surface: #fcf9f8;
+  --color-surface-dim: #dcd9d9;
+  --color-surface-bright: #fcf9f8;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f6f3f2;
+  --color-surface-container: #f0eded;
+  --color-surface-container-high: #eae7e7;
+  --color-surface-container-highest: #e5e2e1;
+  --color-on-surface: #1b1b1b;
+  --color-on-surface-variant: #5f3f38;
+  --color-inverse-surface: #313030;
+  --color-inverse-on-surface: #f3f0ef;
+  --color-outline: #946e67;
+  --color-outline-variant: #e9bcb3;
+  --color-surface-tint: #ba1d00;
+  --color-primary: #b51c00;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #e32500;
+  --color-on-primary-container: #fffbff;
+  --color-inverse-primary: #ffb4a5;
+  --color-secondary: #5e5e5e;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #e4e2e2;
+  --color-on-secondary-container: #656464;
+  --color-tertiary: #5b5c5c;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #737575;
+  --color-on-tertiary-container: #fcfcfc;
+}
+
+@layer base {
+  * {
+    border-color: #e5e2e1;
+  }
+  body {
+    font-family: 'Arimo', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #fcf9f8;
+    color: #1b1b1b;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom architectural type scales matching design system */
+.font-display-hero {
+  font-family: 'Arimo', sans-serif;
+  font-size: clamp(36px, 5vw, 56px);
+  line-height: clamp(44px, 5.5vw, 64px);
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+.font-display-hero-mobile {
+  font-family: 'Arimo', sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.font-headline-lg {
+  font-family: 'Arimo', sans-serif;
+  font-size: clamp(28px, 3.5vw, 40px);
+  line-height: clamp(36px, 4.2vw, 48px);
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.font-headline-md {
+  font-family: 'Arimo', sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
+.font-headline-sm {
+  font-family: 'Arimo', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+.font-title-lg {
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.005em;
+  font-weight: 700;
+}
+
+.font-title-md {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  font-weight: 700;
+}
+
+.font-body-lg {
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  font-weight: 400;
+}
+
+.font-body-md {
+  font-family: 'Arimo', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  font-weight: 400;
+}
+
+.font-body-sm {
+  font-family: 'Arimo', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+.font-label-caps {
+  font-family: 'Arimo', sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.font-label-md {
+  font-family: 'Arimo', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.font-label-sm {
+  font-family: 'Arimo', sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}

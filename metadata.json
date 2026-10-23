@@ -1,0 +1,6 @@
+{
+  "name": "Eiren Law Office",
+  "description": "Clear counsel. Commercial judgment. Reliable execution. Modern corporate, commercial, and transactional legal practice in Jakarta, Indonesia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
